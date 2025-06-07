@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+	
 }
 
 #banner{
@@ -9,9 +10,42 @@
     background-position: center;
     height: 100vh;
 }
+a:visited{
+	color:white;
+	text-decoration:none;
+}
+a{
+	color:white;
+	text-decoration:none;
+}
 .logo{
     width: 140px;
+	height:140px;
     position: absolute;
-    top: 4%;
-    left: 5%;
+    top:4%;
+	left:5%;
+    
+}
+.title{
+	color:white;
+	font-size:18pt;
+	position: absolute;
+    top:19%;
+	left:6%;
+    
+}
+.banner-text{
+	text-align:center;
+	color:white;
+	padding-top:180px;
+}
+
+.banner-text h1 {
+	font-size:130px;
+	font-family:Kaushan Script;
+}
+.banner-text p{
+	font-family:Kaushan Script;
+	font-style:italic;
+	font-size:30px;
 }
