@@ -15,7 +15,8 @@
 	border:0.5px solid  white;
 	padding:10px 0;
 	color:white;
-	
+	z-index:1;
+	position:relative;
 	font-size:20px;
 	font-family:Kaushan Script;
 	
@@ -27,7 +28,7 @@
 	top:0;
 	left:0;
 	background:white;
-	z-index: -1;
+	z-index:-1;
 }
 
 #banner{
@@ -69,9 +70,4 @@ a{
 .banner-text h1 {
 	font-size:130px;
 	font-family:Kaushan Script;
-}
-.banner-text p{
-	font-family:Kaushan Script;
-	font-style:italic;
-	font-size:30px;
 }
