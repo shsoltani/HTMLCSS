@@ -3,6 +3,32 @@
     padding:0;
 	
 }
+.banner-btn{
+	margin:50px auto 0 ; 
+	
+}
+.banner-btn a{
+	width:150px;
+	text-decoratin:none;
+	display:inline-block;
+	margin:0 5px ; 
+	border:0.5px solid  white;
+	padding:10px 0;
+	color:white;
+	
+	font-size:20px;
+	font-family:Kaushan Script;
+	
+}
+.banner-btn a span{
+	width:50%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background:white;
+	z-index: -1;
+}
 
 #banner{
     background: linear-gradient(rgba(0,0,0.2,.02),#250029), url(../images/banner.jpg) ;
