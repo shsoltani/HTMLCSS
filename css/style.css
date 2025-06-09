@@ -1,58 +1,88 @@
 *{
     margin:0;
     padding:0;
-	
+	text-decoration:none;
 }
-.banner-btn{
-	margin:50px auto 0 ; 
-	
+
+#banner{
+    background: linear-gradient(rgba(0,0,0.2,0.2),#250029), url(../images/banner.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+.logo{
+    width: 140px;
+	position: absolute;
+    top:4%;
+	left:5%;
+    
 }
-.banner-btn a{
-	width:150px;
-	text-decoratin:none;
-	display:inline-block;
-	margin:0 5px ; 
-	border:0.5px solid  white;
-	padding:10px 0;
+
+.banner-text{
+	text-align:center;
 	color:white;
-	z-index:1;
-	position:relative;
-	font-size:20px;
+	padding-top:180px;
+}
+
+
+.banner-text h1 {
+	font-size:130px;
 	font-family:Kaushan Script;
 	
 }
+
+.banner-text p {
+	font-size:20px;
+	font-style:italic;
+	
+}
+.banner-btn{
+	margin:70px auto 0 ;	
+}
+
+.banner-btn a{
+	width:150px;
+	display:inline-block;
+	margin:0 10px ; 
+	padding:12px 0;
+	color:white;
+	border:0.5px solid  white;
+	position:relative;
+	z-index:1;	
+	
+	
+}
 .banner-btn a span{
-	width:50%;
+	width:0%;
 	height:100%;
 	position:absolute;
 	top:0;
 	left:0;
 	background:white;
 	z-index:-1;
+	transition:0.5s;
 }
 
-#banner{
-    background: linear-gradient(rgba(0,0,0.2,.02),#250029), url(../images/banner.jpg) ;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.banner-btn a:hover span{
+	width:100%;
+}
+.banner-btn a:hover {
+	color:black;
+	
+	
+	
+}
+
 }
 a:visited{
 	color:white;
-	text-decoration:none;
+	
 }
 a{
 	color:white;
-	text-decoration:none;
+	
 }
-.logo{
-    width: 140px;
-	height:140px;
-    position: absolute;
-    top:4%;
-	left:5%;
-    
-}
+
 .title{
 	color:white;
 	font-size:18pt;
@@ -61,13 +91,4 @@ a{
 	left:6%;
     
 }
-.banner-text{
-	text-align:center;
-	color:white;
-	padding-top:180px;
-}
 
-.banner-text h1 {
-	font-size:130px;
-	font-family:Kaushan Script;
-}
