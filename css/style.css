@@ -2,7 +2,10 @@
     margin:0;
     padding:0;
 	text-decoration:none;
+	
 }
+
+
 
 #banner{
     background: linear-gradient(rgba(0,0,0.2,0.2),#250029), url(../images/banner.jpg) ;
@@ -102,4 +105,42 @@ a{
     border: 1px solid #73AD21;
     padding: 0px;
     
+}
+#navbar{
+	width:120px;
+	height:100vh;
+	position:fixed;
+	left:0;
+	top:0;
+	background:#250029;
+	z-index:2;
+	
+}
+nav ul li{
+	list-style:none;
+	margin:40px 20px;
+	text-align:left;
+	
+}
+nav ul li a{
+	text-decoration:none;
+	font-family:Kaushan Script;
+	color:white;
+}
+#menu-button{
+	width:50px;
+	height:50px;
+	text-align:center;
+	position:fixed;
+	left:30px;
+	top:20px;
+	border-radius:3px;
+	z-index:3;
+	cursor:pointer;
+	
+}
+#menu-button img{
+	width:30px;
+	height:30px;
+	margin-top:15px;	
 }
